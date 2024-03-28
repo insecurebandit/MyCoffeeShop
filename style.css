@@ -1,0 +1,112 @@
+	body {
+		background-image: url("Background.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+	.header {
+		background-color: #E5E4E2;
+		text-align: center;
+		padding: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo_container {
+		height: 20vh;
+		width: auto;
+	}
+
+	.logo {
+		height: 100%;
+		width: auto;
+		border-radius: 15px;
+	}
+
+	.brand_name {	
+		font-family: Minecraft;
+		font-size: 48px;
+	}
+	h1 {
+		text-align: center;
+	}
+	a {
+		font-family: Minecraft;
+		font-size: 24px;
+		text-decoration: none;
+		color: #36454F;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+
+	.contentSection {
+		display: block;
+		margin: 0;
+		background-color: grey;
+		height: 90vh;
+		width: 30%;
+		padding: 10px;
+	}
+	.contentSection1 {
+		background-color: rgba(255,255,255,0.65);
+		display: block;
+		margin: 0;
+		height: 90vh;
+		width: 30%;
+		padding: 10px;
+	}
+
+	.contentContainer{ 	
+		display: flex;
+		margin: 7px;
+		background-color: #C0C0C0;
+		height: 15%;
+		width: 95%;
+		padding: 5x;
+		position: relative;
+		
+	}
+
+	.imageContainer {
+		display: flex;
+		margin: 0;
+		height: 90%;
+		width: fit-content;
+		padding: 5px;
+		border: 2px solid black;
+	}
+	.spacingBetween{
+		display: flex;
+		flex-direction: columns;
+		justify-content: space-between;
+	}
+	pTitle {
+		font-family: Minecraft;
+		font-size: 25px;
+		margin-left: 10vh;
+		margin-right: 5vh;
+		margin-top: 4vh;
+		color: black;
+		
+	}
+	pDescription {
+		font-family: Minecraft;
+		font-size: 15px;
+		margin-left: 3vh;
+		color: black;
+		text-align: center;
+		margin-top: 0.5vh;
+	}
+
+	pDescription1 {
+		font-family: Minecraft;
+		font-size: 13px;
+		margin-left: 3vh;
+		color: black;
+		text-align: center;
+		margin-top: 0.5vh;
+	}
